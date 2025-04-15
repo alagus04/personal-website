@@ -40,7 +40,7 @@ export default function App() {
           <ul className="flex space-x-6 text-gray-700 font-medium">
             <li><Link to="/" className="hover:text-black transition">Home</Link></li>
             <li><Link to="/about" className="hover:text-black transition">About</Link></li>
-            <li><Link to="/projects" className="hover:text-black transition">Projects</Link></li>
+            {/* <li><Link to="/projects" className="hover:text-black transition">Projects</Link></li> */}
             <li>
               <a
                 href="https://drive.google.com/file/d/1FJrSFJMKsc0JAHA3dyupMAuEueVljjG9/view?usp=sharing"

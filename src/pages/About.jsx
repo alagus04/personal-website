@@ -59,7 +59,7 @@ export default function About() {
       <p>
         I’m passionate about creating things that matter—tools that help people think better, feel more, and solve harder problems. If you’d like to chat, feel free to
         <a
-          href="mailto:asellappan@g.ucla.edu"
+          href="mailto:alsellappan@g.ucla.edu"
           className="text-black underline decoration-1 underline-offset-2 hover:bg-yellow-200 px-1 transition-all duration-200"
         >
           reach out.

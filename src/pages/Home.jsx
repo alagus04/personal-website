@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -22,12 +23,36 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold mb-3 tracking-tight">
           Alagappan Sellappan
         </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-xl">
+        <p className="text-xl text-gray-600 mb-4 max-w-xl">
           Student. Researcher. Developer.
         </p>
 
-        <div className="mt-4 animate-bounce text-4xl text-gray-400 hover:text-black">
-          ↓
+        {/* SOCIAL ICONS */}
+        <div className="flex space-x-6 text-2xl text-gray-500 hover:text-black mb-4">
+          <a
+            href="https://www.linkedin.com/in/alsellappan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black transition"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/alagus04"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black transition"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://twitter.com/alagus22"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black transition"
+          >
+            <FaTwitter />
+          </a>
         </div>
       </section>
     </motion.div>

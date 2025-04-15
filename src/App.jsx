@@ -56,10 +56,28 @@ export default function App() {
         </div>
       </nav>
 
-      {/* PAGE CONTENT */}
-      <main className="pt-24">
+      {/* BETA BANNER */}
+<div className="mt-16 bg-yellow-100 text-yellow-800 text-center py-3 px-4 shadow-md flex justify-center z-40 relative">
+  <span className="text-sm sm:text-base font-medium">
+    🚀 Check out the beta version of{' '}
+    <a
+      href="https://pubgenie.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline font-semibold hover:text-yellow-900"
+    >
+      PubGenie
+    </a>{' '}
+    — your AI-powered research assistant.
+  </span>
+</div>
+
+
+      {/* MAIN CONTENT */}
+      <main className="pt-6">
         <AnimatedRoutes />
       </main>
     </Router>
   );
 }
+

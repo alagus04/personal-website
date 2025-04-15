@@ -7,6 +7,7 @@ import Articles from './pages/Articles.jsx';
 // import Resume from './pages/Resume.jsx';
 import ContactTracing from './pages/articles/ContactTracing.jsx'; // ✅ your sample article
 import FacialRecognition from './pages/articles/FacialRecognition.jsx';
+import NetNeutrality from './pages/articles/NetNeutrality.jsx';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -20,6 +21,7 @@ function AnimatedRoutes() {
         <Route path="/articles" element={<Articles />} />
         <Route path="/articles/contact-tracing" element={<ContactTracing />} /> {/* ✅ new route */}
         <Route path="/articles/facial-recognition" element={<FacialRecognition />} /> {/* ✅ new route */}
+        <Route path="/articles/net-neutrality" element={<NetNeutrality />} /> {/* ✅ new route */}
         {/* <Route path="/resume" element={<Resume />} /> */}
       </Routes>
     </AnimatePresence>

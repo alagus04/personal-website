@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const articles = {
   Tech: [
     {
-      date: 'January 2, 2023',
-      title: 'The Bets and Business of Self Driving',
-      link: '/articles/self-driving',
+      date: 'August 20, 2020',
+      title: 'Net Neutrality: Why It’s More Important Now Than Ever?',
+      link: '/articles/net-neutrality',
     },
     {
-      date: 'August 24, 2020',
+      date: 'July 9, 2020',
       title: 'The Fundamentals of Facial Recognition Technology',
       link: '/articles/facial-recognition',
     },
@@ -19,13 +19,13 @@ const articles = {
       link: '/articles/contact-tracing',
     },
   ],
-  Reflection: [
-    {
-      date: 'September 4, 2018',
-      title: 'What did I learn/do differently this internship?',
-      link: '/articles/internship-reflection',
-    },
-  ],
+//   Reflection: [
+//     {
+//       date: 'September 4, 2018',
+//       title: 'What did I learn/do differently this internship?',
+//       link: '/articles/internship-reflection',
+//     },
+//   ],
 };
 
 export default function Articles() {

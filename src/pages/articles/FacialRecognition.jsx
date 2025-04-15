@@ -2,7 +2,7 @@ import ArticleLayout from '../../components/ArticleLayout.jsx';
 
 export default function FacialRecognition() {
   return (
-    <ArticleLayout title="Facial Recognition Technology" date="August 24, 2020">
+    <ArticleLayout title="Facial Recognition Technology" date="July 9, 2020">
       <p className="text-lg font-medium mb-8">
         Facial Recognition Technology is a developing technology that shines a light on a new aspect of security and identity.
         How does it work and what are some of its practical application successes and failures in our modern-day society?

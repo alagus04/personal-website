@@ -12,9 +12,9 @@ export default function Home() {
     >
       {/* HERO SECTION */}
       <section
-        id="home"
-        className="min-h-screen flex flex-col justify-center items-center text-center bg-white px-6 -mt-14"
-      >
+      id="home"
+      className="h-screen overflow-hidden flex flex-col justify-center items-center text-center bg-white px-6 -mt-14"
+>
         <img
           src="/Alagu.png"
           alt="Profile"

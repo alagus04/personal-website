@@ -56,7 +56,7 @@ export default function App() {
             {/* <li><Link to="/projects" className="hover:text-black transition">Projects</Link></li> */}
             <li>
               <a
-                href="https://drive.google.com/file/d/1FJrSFJMKsc0JAHA3dyupMAuEueVljjG9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kKKQ4_W2WdpnPihBe2Nv7s_-m-TjVbmZ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-black transition"
